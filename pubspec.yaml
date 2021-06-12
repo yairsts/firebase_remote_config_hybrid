@@ -1,0 +1,31 @@
+name: firebase_remote_config_hybrid
+description: Flutter plugin for Flutter plugin template
+homepage: https://github.com/JohnMusleh/firebase_remote_config_hybrid/tree/master/firebase_remote_config_hybrid
+version: 0.0.1
+
+flutter:
+  plugin:
+    platforms:
+      web:
+        default_package: firebase_remote_config_hybrid_web
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_remote_config_hybrid_platform_interface: ^0.0.1
+  firebase_remote_config_hybrid_web:
+    git:
+      url: git://github.com/yairsts/firebase_remote_config_hybrid_web.git
+dev_dependencies:
+  http: ^0.13.0
+  flutter_test:
+    sdk: flutter
+  uuid: ^3.0.4
+  flutter_driver:
+    sdk: flutter
+  test: any
+  e2e: ^0.2.1
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=1.10.0 <2.0.0"
